@@ -87,7 +87,7 @@ RoomTool.prototype.getRoom = function(name, cb){
 
 RoomTool.prototype.getAllRooms = function(cb){
 	async.map(rooms, this.getRoom, function(err, results) {
-    	console.log(util.inspect(results, false, null));
+    	cb(err, results);
 	});
 }
 

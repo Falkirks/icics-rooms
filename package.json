@@ -1,6 +1,6 @@
 {
   "name": "icics-rooms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client for icics room booking schedules at UBC",
   "main": "index.js",
   "scripts": {
