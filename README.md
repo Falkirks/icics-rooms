@@ -1,5 +1,5 @@
 # icics-rooms
-Node library for finding available rooms at ICICS UBC.
+Node library for finding available rooms at ICICS UBC. It can only list the bookings for today, because accessing the full calender requires authentication and that is a mess to deal with.
 
 
 ## Installation 
